@@ -1,6 +1,9 @@
 ﻿using SzallodaApp;
 
-Szoba normal = new Szoba(101,20000);
-Lakosztaly suite = new Lakosztaly(501, 40000, 150000);
+Szoba norma = new Szoba(101,20000);
+Lakosztaly suit = new Lakosztaly(501, 40000, 150000);
 
-normal.Alapar = -5000;
+norma.Alapar = -5000;
+// nem mukodok mert
+Console.WriteLine($"Normal Szoba:{norma}");
+Console.WriteLine($"Lakosztaly:{suit}");

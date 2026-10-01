@@ -3,6 +3,7 @@ namespace SzallodaApp
     public class Szoba
     {
        
+
         public int Szobaszam { get; set; }
         protected int alapar { get; set; }
         public int Alapar
@@ -10,8 +11,7 @@ namespace SzallodaApp
             get =>alapar;
             set
             {
-
-                if (value > 0)
+                if (value > 1)
                 {
                     alapar = value;
                 }
@@ -31,7 +31,7 @@ namespace SzallodaApp
 
         public override string ToString()
         {
-            return $"Szoba [{Szobaszam}] | Alapár: [{Alapar}] Ft/éj";
+            return $"Szobaszam: [{Szobaszam}] | Alapár: [{Alapar}] Ft/éj";
         }
     }
 }
