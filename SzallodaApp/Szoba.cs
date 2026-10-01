@@ -2,10 +2,10 @@ namespace SzallodaApp
 {
     public class Szoba
     {
-       
-
         public int Szobaszam { get; set; }
         protected int alapar { get; set; }
+
+
         public int Alapar
         {
             get =>alapar;
@@ -35,4 +35,3 @@ namespace SzallodaApp
         }
     }
 }
-

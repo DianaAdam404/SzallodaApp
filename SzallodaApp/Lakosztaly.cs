@@ -3,6 +3,7 @@ namespace SzallodaApp
     public class Lakosztaly : Szoba
     {
         public int ExtraSzolgaltatasAr { get; set; }
+
         public Lakosztaly(int szobaszam, int alapAr, int extra) : base(szobaszam, alapAr)
         {
             ExtraSzolgaltatasAr = extra;
@@ -19,4 +20,3 @@ namespace SzallodaApp
         }
     }
 }
-
