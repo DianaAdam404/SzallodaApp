@@ -10,7 +10,7 @@ namespace SzallodaApp
             get =>alapar;
             set
             {
-               
+
                 if (value > 0)
                 {
                     alapar = value;
